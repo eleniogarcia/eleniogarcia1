@@ -1,0 +1,64 @@
+/* src/components/ProjectDetail.css */
+
+.project-detail-container {
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Lista de épicas */
+.epic-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Usar columnas flexibles */
+  gap: 20px; /* Espacio entre los elementos */
+  margin-top: 20px;
+}
+
+/* Elemento de épica */
+.epic-item {
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
+  transition: transform 0.2s, box-shadow 0.2s; /* Transiciones para hover */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+/* Efecto al pasar el ratón */
+.epic-item:hover {
+  transform: translateY(-2px); /* Elevar ligeramente al pasar el ratón */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+}
+
+/* Título de cada épica */
+.epic-item h3 {
+  margin: 0 0 10px;
+  color: #007bff; /* Color azul */
+  font-weight: 700;
+  font-size: 22px; /* Aumentar tamaño de fuente para el título */
+}
+
+/* Descripción de cada épica */
+.epic-item p {
+  margin: 5px 0;
+  color: #666; /* Color gris */
+  line-height: 1.6;
+  font-size: 16px; /* Ajustar tamaño de fuente para la descripción */
+}
+
+/* Agregar un borde superior a la épica (opcional) */
+.epic-item::before {
+  content: '';
+  display: block;
+  width: 5px; /* Ancho del borde */
+  height: 50px; /* Altura del borde */
+  background-color: #007bff; /* Color del borde */
+  border-radius: 12px 0 0 12px; /* Bordes redondeados */
+  position: absolute; /* Posicionarlo a la izquierda */
+  top: 20px; /* Ajustar posición vertical */
+  left: 10px; /* Ajustar posición horizontal */
+}

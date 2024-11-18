@@ -1,0 +1,28 @@
+/* Header.css (Organism) */
+.app-header {
+    display: flex;
+    justify-content: space-between; /* Mantiene espacio entre los elementos */
+    align-items: center;
+    background-color: #1a1a2e;
+    color: white;
+    padding: 15px 20px; /* Puedes aumentar el padding si es necesario */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    
+  }
+  
+  .header-title {
+    font-size: 22px; /* Ajusta el tamaño de fuente según sea necesario */
+    margin: 0; /* Asegúrate de que no haya margen */
+    color: #fff;
+    flex-grow: 1; /* Asegura que el título use espacio adicional */
+    text-align: center; /* Centra el texto en el header */
+    overflow: hidden; /* Evita que el texto se desborde */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-overflow: ellipsis; /* Muestra "..." si el texto es muy largo */
+  }
+  

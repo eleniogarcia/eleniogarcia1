@@ -1,0 +1,13 @@
+.menu-icon {
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-icon:hover {
+    transform: scale(1.1);
+  }
+  

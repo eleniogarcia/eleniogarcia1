@@ -1,0 +1,30 @@
+/* src/components/atoms/css/ProjectCard.css */
+.project-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0; /* Espacio entre las tarjetas */
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Añadir transiciones para sombra */
+  width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+  max-width: 400px; /* Ancho máximo de cada tarjeta */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para cada tarjeta */
+}
+
+.project-card:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra al pasar el ratón */
+}
+
+/* Estilos del título y la descripción */
+.project-card h3 {
+  margin: 0 0 10px; /* Espacio entre el título y la descripción */
+  font-size: 20px; /* Ajustar tamaño de fuente */
+  color: #0056b3; /* Color del título */
+}
+
+.project-card p {
+  margin: 0; /* Eliminar margen por defecto */
+  color: #666; /* Color gris para la descripción */
+  line-height: 1.5; /* Espaciado entre líneas */
+}

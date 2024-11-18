@@ -1,0 +1,8 @@
+/* src/components/molecules/css/ProjectList.css */
+.project-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Cambiar a columna para que los elementos se apilen */
+  align-items: center; /* Centrar los elementos dentro del contenedor */
+  gap: 20px; /* Espacio entre los proyectos */
+}

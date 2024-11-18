@@ -1,0 +1,21 @@
+/* Estilo para la página de detalles de la story */
+.story-details-page {
+  max-width: 800px;
+  margin-top: 60%;
+  margin: 0 auto; /* Centra el contenido */
+  padding: 20px;
+  background-color: #f9f9f9; /* Color de fondo claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+
+/* Estilo para cada item de tarea */
+.task-item {
+  background-color: #fff; /* Fondo blanco */
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 15px; /* Espaciado interno */
+  margin: 10px 0; /* Margen entre tareas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
